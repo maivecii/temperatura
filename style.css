@@ -1,0 +1,85 @@
+head {
+     h1 {font-family: 'Times New Roman', Times, serif;}
+     h1 {text-align: center;}
+}
+
+body {
+     h1 {text-align: center;}
+    background-color: rgb(240, 244, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70vh;
+}
+
+.main-container {
+    background-color: #eddbff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+
+.input-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background: #ecd8d8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.input-group, .output-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.result-container {
+    width: 45%;
+    background-color: #847577;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+input, button {
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid #847577;
+    border-radius: 5px;
+}
+
+button {
+    width: 93%;
+    background: #012142;
+    color: white;
+    cursor: pointer;
+}
+
