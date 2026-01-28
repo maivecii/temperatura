@@ -1,20 +1,30 @@
 head {
-     h1 {font-family: 'Times New Roman', Times, serif;}
-     h1 {text-align: center;}
+     h2 {font-family: 'Times New Roman', Times, serif;}
+     h2 {text-align: center;}
 }
+ h1  {
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+  h2  {
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
 
 body {
-     h1 {text-align: center;}
     background-color: rgb(240, 244, 255);
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: 'Times New Roman', Times, serif;
-    height: 70vh;
+    height: 90vh;
 }
 
 .main-container {
-    background-color: #eddbff;
+    background-color: #e8e4f8;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -22,21 +32,35 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
     padding: 20px;
+    height: 85vh;
 }
 
+.inner-outer-container {
+    background-color: #c8c4e9;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 25px;
+    height: 65vh;
+    gap: 150px;
+    text-align: center;
+}
 
 .input-container {
-    width: 45%;
+    width: 40%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    background: #ecd8d8;
-    padding: 15px;
+    background: #eff1f7;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    align-items: center;
+    height: 50vh;
 }
 
-.input-group, .output-group {
+.input-group {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,29 +68,21 @@ body {
     flex: 1;
     margin: 5px;
 }
-
-input {
-    width: 90%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-.button-group {
+.output-group {
+    float: left;
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 5px;
 }
-
-.result-container {
-    width: 45%;
-    background-color: #847577;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
+input {
+width: 90%;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #D6CCC2;
+text-align: center;
 }
 
 input, button {
@@ -76,6 +92,13 @@ input, button {
     border-radius: 5px;
 }
 
+.button-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 button {
     width: 93%;
     background: #012142;
@@ -83,3 +106,16 @@ button {
     cursor: pointer;
 }
 
+.result-container {
+    width: 40%;
+    background-color: #eff1f7;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    height: 50vh;
+}
+
+p {
+    
+}

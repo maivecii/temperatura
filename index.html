@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="main-container">
-        <h1>Temperatūras ieraksti</h1>
-        <h2>Temperatūras ievade</h2>
+         <h1>Temperatūras ieraksti</h1>
+        <div class="inner-outer-container">
         <div class="input-container">
+        <h2>Temperatūras ievade</h2>
             <div class="input-group">
                 <label>Datums (dd.mm.gggg)</label>
                 <input type="date" id="datums">
@@ -27,12 +29,10 @@
             </div>
             <p>Ievadi dienas minimālo un maksimālo temperatūru. (Vēlāk var pieslēgt validācija/Flask saglabāšanu.)</p>
         </div>
-     </div>
-     <div class="result-container">
-     <h2>Temperatūras saraksts</h2>
+        <div class="result-container">
+        <h2>Temperatūras saraksts</h2>
      <div class="result-row">
-        <div class="output-group">
-      <table>
+        <table>
      <tr>
     <th>Datums</th>
     <th>Mazākā temperatūra</th>
@@ -67,8 +67,10 @@
       </table>
       </div>
       <p>Vidējā temperatūra visām dienām 0.00</p>
-    </div>
      </div>
+     </div>
+      </div>
+     
             
 </body>
 </html>
